@@ -1,0 +1,12 @@
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+<h1>{{ question.question_text }}</h1>
+
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }} -- {{ choice.votes }} {% blocktrans count count=choice.votes %}{{vote}}{% plural %}{{votes}}{% endblocktrans %}</li>
+{% endfor %}
+</ul>
+
+<a href="{% url 'polls:detail' question.id %}">{% trans "q_vote_again" %}</a>

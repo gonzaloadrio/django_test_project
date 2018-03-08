@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-08 12:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:12
+msgid "question"
+msgstr "Question"
+
+#: models.py:13
+msgid "publish_date"
+msgstr "Publish Date"
+
+#: models.py:21
+msgid "q_publish_recently"
+msgstr "Published recently?"
+
+#: models.py:27
+msgid "poll"
+msgstr "Poll"
+
+#: models.py:28
+msgid "polls"
+msgstr "Polls"
+
+#: models.py:32 models.py:39
+msgid "option"
+msgstr "Option"
+
+#: models.py:33
+msgid "number_of_votes"
+msgstr "Number of Votes"
+
+#: models.py:40
+msgid "options"
+msgstr "Options"
+
+#: templates/polls/detail.html:3
+msgid "vote"
+msgstr "Vote"
+
+#: templates/polls/index.html:6
+msgid "Bienvenido"
+msgstr "Welcome"
+
+#: templates/polls/index.html:19
+msgid "No hay preguntas disponibles."
+msgstr "Theres no polls available"
+
+#: templates/polls/results.html:8
+msgid "%(vote)s"
+msgid_plural "%(votes)s"
+msgstr[0] "vote"
+msgstr[1] "votes"
+
+#: templates/polls/results.html:12
+msgid "q_vote_again"
+msgstr "Vote again?"
+
+#: views.py:53
+msgid "you_didnt_select_choice"
+msgstr "You didn't select a choice"
+
